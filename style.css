@@ -13,7 +13,6 @@
   --light-purple: rgb(241, 241, 253);
 }
 
-
 body {
   display: flex;
   flex-direction: column;
@@ -31,12 +30,6 @@ a .active {
   text-decoration: underline;
 }
 
-ul {
-  list-style-type: none;
-  display: flex;
-  gap: 16px;
-}
-
 img {
   max-width: 450px;
 }
@@ -44,8 +37,9 @@ img {
 .navbar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin-bottom: 85px;
+  justify-content: space-evenly;
+  padding: 1rem 0;
+  border-bottom: 2px solid var(--light-purple);
 }
 
 .navbar a {
@@ -54,20 +48,24 @@ img {
   font-size: 16px;
 }
 
-.header-logo {
+.navbar-logo {
   font-size: 24px;
   font-weight: 500;
+}
+
+.navbar-links {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  gap: 2rem;
 }
 
 .hero {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 36px;
-  margin-bottom: 85px;
+  background-color: var(--main-light);
 }
-
 
 .hero-main-text {
   font-size: 22px;
@@ -76,10 +74,8 @@ img {
 }
 
 .hero-secondary-text {
-  margin-bottom: 12px;
   font-size: 18px;
 }
-
 
 .button-group {
   display: flex;
@@ -95,7 +91,7 @@ img {
 }
 
 .button-primary {
-  padding: 15px 30px;
+  padding: 10px 25px;
   background-color: var(--main-dark);
   color: rgb(255, 255, 255);
 }
