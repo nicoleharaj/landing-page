@@ -13,6 +13,12 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+a,
+button {
+  all: unset;
+  cursor: pointer;
+}
+
 ul {
   list-style-type: none;
   display: flex;
@@ -31,6 +37,9 @@ img {
 .header {
   font-size: 18px;
   color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .header-logo {
@@ -60,13 +69,23 @@ img {
   margin-bottom: 85px;
 }
 
+
 .hero-main-text {
   font-size: 48px;
   font-weight: 900;
   color: rgb(255, 255, 255);
 }
 
+.hero-secondary-text {
+  margin-bottom: 12px;
+}
 
+.button-primary {
+  background-color:rgb(56, 130, 246);
+  color: rgb(255, 255, 255);
+  padding: 4px 20px;
+  border-radius: 8px;
+}
 
 .main-content {
   flex: 1;
@@ -75,4 +94,9 @@ img {
 .footer {
   text-align: center;
   color: #e5e7eb;
+}
+
+.footer a { 
+  font-weight: 500;
+  color:rgb(229, 231, 235);
 }
