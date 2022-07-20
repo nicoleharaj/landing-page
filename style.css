@@ -39,7 +39,7 @@ img {
   align-items: center;
   justify-content: space-evenly;
   padding: 1rem 0;
-  border-bottom: 2px solid var(--light-purple);
+  border-bottom: 1px solid var(--light-purple);
 }
 
 .navbar a {
@@ -71,7 +71,14 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   background-color: var(--main-light);
+  flex: 1;
+}
+
+.hero-content {
+  width: 600px;
+  text-align: center;
 }
 
 .hero-main-text {
