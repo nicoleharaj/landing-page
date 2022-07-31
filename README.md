@@ -1,6 +1,8 @@
 # Landing Page
 A landing page example written in pure HTML/CSS.
 
+👉 [Live preview](https://nicoleharaj.github.io/landing-page/)
+
 ## Credits
 
 - In partnership with [The Odin Project](https://www.theodinproject.com/).
